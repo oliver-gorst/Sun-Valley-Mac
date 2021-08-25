@@ -9,8 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Welcome to Sun Valley!")
-            .padding()
+        ZStack {
+            Text("Welcome to Sun Valley!")
+                .padding()
+                .foregroundColor(.green)
+                .font(.system(size:25, weight: .heavy, design: .serif))
+
+        }
+        .background(
+            Image("alpen_glow")
+                .resizable()
+                .edgesIgnoringSafeArea(.all)
+                .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+        )
+
+
+        
     }
 }
 
