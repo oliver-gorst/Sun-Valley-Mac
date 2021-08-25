@@ -33,6 +33,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4909FD5D26CAFC9200441E78 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49BAB58126C6F3E000FB732D /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		49BAB57326C6F3E000FB732D = {
 			isa = PBXGroup;
 			children = (
@@ -53,7 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				49BAB57F26C6F3E000FB732D /* Sun_ValleyApp.swift */,
-				49BAB58126C6F3E000FB732D /* ContentView.swift */,
+				4909FD5D26CAFC9200441E78 /* Views */,
 				49BAB58326C6F3E100FB732D /* Assets.xcassets */,
 				49BAB58826C6F3E100FB732D /* Info.plist */,
 				49BAB58526C6F3E100FB732D /* Preview Content */,
