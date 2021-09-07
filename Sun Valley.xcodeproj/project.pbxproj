@@ -11,6 +11,7 @@
 		49BAB58226C6F3E000FB732D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BAB58126C6F3E000FB732D /* ContentView.swift */; };
 		49BAB58426C6F3E100FB732D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49BAB58326C6F3E100FB732D /* Assets.xcassets */; };
 		49BAB58726C6F3E100FB732D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49BAB58626C6F3E100FB732D /* Preview Assets.xcassets */; };
+		49E4495026E70AE3009EEF64 /* TestBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E4494F26E70AE3009EEF64 /* TestBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		49BAB58326C6F3E100FB732D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49BAB58626C6F3E100FB732D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		49BAB58826C6F3E100FB732D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49E4494F26E70AE3009EEF64 /* TestBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,7 @@
 			isa = PBXGroup;
 			children = (
 				49BAB58126C6F3E000FB732D /* ContentView.swift */,
+				49E4494F26E70AE3009EEF64 /* TestBox.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49BAB58226C6F3E000FB732D /* ContentView.swift in Sources */,
+				49E4495026E70AE3009EEF64 /* TestBox.swift in Sources */,
 				49BAB58026C6F3E000FB732D /* Sun_ValleyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,11 +10,19 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
+            VStack {
+            TestBox()
+                
             Text("Welcome to Sun Valley!")
                 .padding()
                 .foregroundColor(.green)
                 .font(.system(size:25, weight: .heavy, design: .serif))
-
+                
+            Text("This should be underneath.")
+                .padding()
+                .foregroundColor(.orange)
+                .font(.system(size:18, weight: .heavy, design: .serif))
+            }
         }
         .background(
             Image("alpen_glow")
@@ -22,8 +30,6 @@ struct ContentView: View {
                 .edgesIgnoringSafeArea(.all)
                 .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
         )
-
-
         
     }
 }
