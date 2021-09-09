@@ -18,7 +18,7 @@ struct ContentView: View {
                 .foregroundColor(.green)
                 .font(.system(size:25, weight: .heavy, design: .serif))
                 
-            Text("This should be underneath.")
+            Text("This should be underneath. New push.")
                 .padding()
                 .foregroundColor(.orange)
                 .font(.system(size:18, weight: .heavy, design: .serif))
