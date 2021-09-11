@@ -11,6 +11,8 @@ struct TestBox: View {
     var body: some View {
         Text("This text is been driven by the TestBox.swift file")
             .foregroundColor(.red)
+        Text("We are about to make new pages.")
+            .foregroundColor(.green)
     }
 }
 
