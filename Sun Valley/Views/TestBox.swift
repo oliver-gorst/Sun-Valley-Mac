@@ -9,10 +9,12 @@ import SwiftUI
 
 struct TestBox: View {
     var body: some View {
+        VStack {
         Text("This text is been driven by the TestBox.swift file")
             .foregroundColor(.red)
         Text("We are about to make new pages.")
-            .foregroundColor(.green)
+            .foregroundColor(.yellow)
+        }
     }
 }
 
