@@ -12,8 +12,10 @@ struct TestBox: View {
         VStack {
         Text("This text is been driven by the TestBox.swift file")
             .foregroundColor(.red)
+            .font(.system(size:15, weight:.heavy))
         Text("We are about to make new pages.")
             .foregroundColor(.yellow)
+            .font(.system(size:15, weight:.heavy))
         }
     }
 }
