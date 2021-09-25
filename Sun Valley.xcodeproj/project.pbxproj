@@ -14,6 +14,7 @@
 		49BAB58726C6F3E100FB732D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49BAB58626C6F3E100FB732D /* Preview Assets.xcassets */; };
 		49C029F926FEB90800422E65 /* SunValleyRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C029F826FEB90800422E65 /* SunValleyRow.swift */; };
 		49C029FD26FEC07300422E65 /* SunValleyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C029FC26FEC07300422E65 /* SunValleyList.swift */; };
+		49C029FF26FEC39500422E65 /* SunValleyDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C029FE26FEC39500422E65 /* SunValleyDetail.swift */; };
 		49E4495026E70AE3009EEF64 /* TestBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E4494F26E70AE3009EEF64 /* TestBox.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		49BAB58826C6F3E100FB732D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49C029F826FEB90800422E65 /* SunValleyRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunValleyRow.swift; sourceTree = "<group>"; };
 		49C029FC26FEC07300422E65 /* SunValleyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunValleyList.swift; sourceTree = "<group>"; };
+		49C029FE26FEC39500422E65 /* SunValleyDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunValleyDetail.swift; sourceTree = "<group>"; };
 		49E4494F26E70AE3009EEF64 /* TestBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,6 +51,7 @@
 				4997027D26EEF0D100E93933 /* TestBox2.swift */,
 				49C029F826FEB90800422E65 /* SunValleyRow.swift */,
 				49C029FC26FEC07300422E65 /* SunValleyList.swift */,
+				49C029FE26FEC39500422E65 /* SunValleyDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				49BAB58226C6F3E000FB732D /* ContentView.swift in Sources */,
 				49E4495026E70AE3009EEF64 /* TestBox.swift in Sources */,
 				49BAB58026C6F3E000FB732D /* Sun_ValleyApp.swift in Sources */,
+				49C029FF26FEC39500422E65 /* SunValleyDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,6 +11,7 @@ struct SunValleyList: View {
     var body: some View {
         NavigationView {
             Text("Navigation Area")
+
             .navigationTitle("Nav Title")
         }
     }
