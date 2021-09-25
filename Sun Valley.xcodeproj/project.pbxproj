@@ -49,8 +49,8 @@
 				49BAB58126C6F3E000FB732D /* ContentView.swift */,
 				49E4494F26E70AE3009EEF64 /* TestBox.swift */,
 				4997027D26EEF0D100E93933 /* TestBox2.swift */,
-				49C029F826FEB90800422E65 /* SunValleyRow.swift */,
 				49C029FC26FEC07300422E65 /* SunValleyList.swift */,
+				49C029F826FEB90800422E65 /* SunValleyRow.swift */,
 				49C029FE26FEC39500422E65 /* SunValleyDetail.swift */,
 			);
 			path = Views;

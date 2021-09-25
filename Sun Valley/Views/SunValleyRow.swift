@@ -10,8 +10,8 @@ import SwiftUI
 struct SunValleyRow: View {
     var body: some View {
         HStack {
-            Text("Meow Meow")
-            Text("Purr Purr")
+            Text("Sun Valley Row 1")
+            Text("King Kitty")
         }
     }
 }
