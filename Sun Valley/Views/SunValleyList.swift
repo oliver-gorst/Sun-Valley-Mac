@@ -10,8 +10,10 @@ import SwiftUI
 struct SunValleyList: View {
     var body: some View {
         NavigationView {
-            Text("Navigation Area")
-
+            NavigationLink(destination: SunValleyDetail()) {
+               Text("Press on me")
+                SunValleyRow()
+            }.buttonStyle(PlainButtonStyle())
             .navigationTitle("Nav Title")
         }
     }

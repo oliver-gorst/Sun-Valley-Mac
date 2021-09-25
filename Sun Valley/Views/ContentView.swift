@@ -11,6 +11,7 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             VStack {
+            SunValleyList()
             Spacer()
             TestBox()
             Spacer()

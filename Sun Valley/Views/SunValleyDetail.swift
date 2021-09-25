@@ -10,6 +10,7 @@ import SwiftUI
 struct SunValleyDetail: View {
     var body: some View {
         Text("SunValleyDetail")
+            .foregroundColor(.red)
     }
 }
 
