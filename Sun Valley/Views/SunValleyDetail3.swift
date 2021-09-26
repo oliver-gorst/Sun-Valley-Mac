@@ -7,15 +7,16 @@
 
 import SwiftUI
 
-struct SunValleyDetail: View {
+struct SunValleyDetail3: View {
     var body: some View {
-        Text("Sun Valley Detail")
+        Text("Sun Valley Detail 3")
             .foregroundColor(.red)
     }
 }
 
-struct SunValleyDetail_Previews: PreviewProvider {
+struct SunValleyDetail3_Previews: PreviewProvider {
     static var previews: some View {
-        SunValleyDetail()
+        SunValleyDetail3()
     }
 }
+

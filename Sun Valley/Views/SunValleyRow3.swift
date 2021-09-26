@@ -7,15 +7,15 @@
 
 import SwiftUI
 
-struct SunValleyRow: View {
+struct SunValleyRow3: View {
     var body: some View {
         HStack {
-            Text("Row 1")
+            Text("Row 3")
         }
     }
 }
 
-struct SunValleyRow_Previews: PreviewProvider {
+struct SunValleyRow3_Previews: PreviewProvider {
     static var previews: some View {
         SunValleyRow()
     }

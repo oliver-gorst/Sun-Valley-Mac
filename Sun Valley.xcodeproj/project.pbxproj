@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49786AC72700225200B6C9EF /* SunValleyRow2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49786AC62700225200B6C9EF /* SunValleyRow2.swift */; };
+		49786ACA2700227300B6C9EF /* SunValleyRow3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49786AC92700227300B6C9EF /* SunValleyRow3.swift */; };
+		49786ACC270022A600B6C9EF /* SunValleyDetail2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49786ACB270022A600B6C9EF /* SunValleyDetail2.swift */; };
+		49786ACE270022B500B6C9EF /* SunValleyDetail3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49786ACD270022B500B6C9EF /* SunValleyDetail3.swift */; };
 		4997027E26EEF0D100E93933 /* TestBox2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4997027D26EEF0D100E93933 /* TestBox2.swift */; };
 		49BAB58026C6F3E000FB732D /* Sun_ValleyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BAB57F26C6F3E000FB732D /* Sun_ValleyApp.swift */; };
 		49BAB58226C6F3E000FB732D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BAB58126C6F3E000FB732D /* ContentView.swift */; };
@@ -19,6 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49786AC62700225200B6C9EF /* SunValleyRow2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunValleyRow2.swift; sourceTree = "<group>"; };
+		49786AC92700227300B6C9EF /* SunValleyRow3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunValleyRow3.swift; sourceTree = "<group>"; };
+		49786ACB270022A600B6C9EF /* SunValleyDetail2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunValleyDetail2.swift; sourceTree = "<group>"; };
+		49786ACD270022B500B6C9EF /* SunValleyDetail3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunValleyDetail3.swift; sourceTree = "<group>"; };
 		4997027D26EEF0D100E93933 /* TestBox2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBox2.swift; sourceTree = "<group>"; };
 		49BAB57C26C6F3E000FB732D /* Sun Valley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sun Valley.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49BAB57F26C6F3E000FB732D /* Sun_ValleyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sun_ValleyApp.swift; sourceTree = "<group>"; };
@@ -51,7 +59,11 @@
 				4997027D26EEF0D100E93933 /* TestBox2.swift */,
 				49C029FC26FEC07300422E65 /* SunValleyList.swift */,
 				49C029F826FEB90800422E65 /* SunValleyRow.swift */,
+				49786AC62700225200B6C9EF /* SunValleyRow2.swift */,
+				49786AC92700227300B6C9EF /* SunValleyRow3.swift */,
 				49C029FE26FEC39500422E65 /* SunValleyDetail.swift */,
+				49786ACB270022A600B6C9EF /* SunValleyDetail2.swift */,
+				49786ACD270022B500B6C9EF /* SunValleyDetail3.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -164,10 +176,14 @@
 				4997027E26EEF0D100E93933 /* TestBox2.swift in Sources */,
 				49C029FD26FEC07300422E65 /* SunValleyList.swift in Sources */,
 				49C029F926FEB90800422E65 /* SunValleyRow.swift in Sources */,
+				49786AC72700225200B6C9EF /* SunValleyRow2.swift in Sources */,
+				49786ACA2700227300B6C9EF /* SunValleyRow3.swift in Sources */,
 				49BAB58226C6F3E000FB732D /* ContentView.swift in Sources */,
 				49E4495026E70AE3009EEF64 /* TestBox.swift in Sources */,
 				49BAB58026C6F3E000FB732D /* Sun_ValleyApp.swift in Sources */,
 				49C029FF26FEC39500422E65 /* SunValleyDetail.swift in Sources */,
+				49786ACE270022B500B6C9EF /* SunValleyDetail3.swift in Sources */,
+				49786ACC270022A600B6C9EF /* SunValleyDetail2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
