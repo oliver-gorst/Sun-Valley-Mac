@@ -10,7 +10,10 @@ import SwiftUI
 struct SunValleyRow3: View {
     var body: some View {
         HStack {
-            Text("Row 3")
+            Image("SkiLift")
+                .resizable()
+                .frame(width: 40, height: 40)
+            Text("Ski Lifts")
         }
     }
 }

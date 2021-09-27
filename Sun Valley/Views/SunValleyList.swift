@@ -12,26 +12,24 @@ struct SunValleyList: View {
         NavigationView {
             List() {
             NavigationLink(destination: SunValleyDetail()) {
-               Text("Trail Map")
-                Spacer()
                 SunValleyRow()
             }
             .buttonStyle(PlainButtonStyle())
             NavigationLink(destination: SunValleyDetail2()) {
-                Text("Location")
-                Spacer()
                 SunValleyRow2()
             }
             NavigationLink(destination: SunValleyDetail3()) {
-                Text("Ski Lifts")
-                Spacer()
                 SunValleyRow3()
                 }
             }
             .navigationTitle("Sun Valley App")
+            .foregroundColor(.black)
+
         }
     }
 }
+
+
 
 struct SunValleyList_Previews: PreviewProvider {
     static var previews: some View {

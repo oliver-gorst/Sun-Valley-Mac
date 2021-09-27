@@ -35,9 +35,6 @@ struct SunValleyDetail: View {
                 .edgesIgnoringSafeArea(.all)
                 .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
         )
-        
-        Text("Sun Valley Detail")
-            .foregroundColor(.red)
     }
 }
 
