@@ -34,5 +34,6 @@ struct SunValleyList: View {
 struct SunValleyList_Previews: PreviewProvider {
     static var previews: some View {
         SunValleyList()
+            .preferredColorScheme(.dark)
     }
 }
