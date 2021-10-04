@@ -31,7 +31,6 @@ struct SunValleyDetail: View {
         }
         .background(
             Image("SunValleyMap")
-                .resizable()
                 .edgesIgnoringSafeArea(.all)
                 .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
         )
