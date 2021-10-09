@@ -14,6 +14,7 @@ struct SunValleyRow3: View {
                 .resizable()
                 .frame(width: 40, height: 40)
             Text("Ski Lifts")
+                .foregroundColor(Color("text_color"))
         }
     }
 }

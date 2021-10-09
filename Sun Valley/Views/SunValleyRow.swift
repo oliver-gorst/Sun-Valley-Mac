@@ -14,6 +14,7 @@ struct SunValleyRow: View {
                 .resizable()
                 .frame(width: 40, height: 40)
             Text("Trail Map")
+                .foregroundColor(Color("text_color"))
         }
     }
 }

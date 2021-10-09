@@ -25,9 +25,9 @@ struct SunValleyList: View {
             .navigationTitle("Sun Valley App")
             .foregroundColor(.black)
 
+            }
         }
     }
-}
 
 
 
