@@ -10,7 +10,7 @@ import SwiftUI
 struct SunValleyRowHome: View {
     var body: some View {
         HStack {
-            Image("TrailMap")
+            Image("SunIcon")
                 .resizable()
                 .frame(width: 40, height: 40)
             Text("Home")
@@ -21,6 +21,6 @@ struct SunValleyRowHome: View {
 
 struct SunValleyRowHome_Previews: PreviewProvider {
     static var previews: some View {
-        SunValleyRow()
+        SunValleyRowHome()
     }
 }
