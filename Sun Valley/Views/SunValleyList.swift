@@ -11,6 +11,10 @@ struct SunValleyList: View {
     var body: some View {
         NavigationView {
             List() {
+            NavigationLink(destination: SunValleyDetailHome()) {
+                SunValleyRowHome()
+            }
+            .buttonStyle(PlainButtonStyle())
             NavigationLink(destination: SunValleyDetail()) {
                 SunValleyRow()
             }
