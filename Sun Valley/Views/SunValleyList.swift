@@ -22,9 +22,15 @@ struct SunValleyList: View {
             NavigationLink(destination: SunValleyDetail2()) {
                 SunValleyRow2()
             }
+            .buttonStyle(PlainButtonStyle())
             NavigationLink(destination: SunValleyDetail3()) {
                 SunValleyRow3()
-                }
+            }
+            .buttonStyle(PlainButtonStyle())
+            NavigationLink(destination: SunValleyDetail4()) {
+                SunValleyRow4()
+            }
+            .buttonStyle(PlainButtonStyle())
             }
             .navigationTitle("Sun Valley App")
             .foregroundColor(.black)
