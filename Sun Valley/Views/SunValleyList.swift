@@ -33,8 +33,6 @@ struct SunValleyList: View {
             .buttonStyle(PlainButtonStyle())
             }
             .navigationTitle("Sun Valley App")
-            .foregroundColor(.black)
-
             }
         }
     }
