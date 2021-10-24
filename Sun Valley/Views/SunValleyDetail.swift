@@ -17,7 +17,7 @@ struct SunValleyDetail: View {
                 .frame(width: geo.size.width)
             }
 
-        Text("Trail Map Details!")
+        Text("Trail Map Details!!!")
             .foregroundColor(.red)
         }
     }
