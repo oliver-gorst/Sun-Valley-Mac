@@ -9,8 +9,17 @@ import SwiftUI
 
 struct SunValleyDetail: View {
     var body: some View {
+        ZStack{
+            GeometryReader { geo in
+        Image("Sun Valley Test Image")
+                .resizable()
+                .aspectRatio(contentMode:.fit)
+                .frame(width: geo.size.width)
+            }
+
         Text("Trail Map Details!")
             .foregroundColor(.red)
+        }
     }
 }
 

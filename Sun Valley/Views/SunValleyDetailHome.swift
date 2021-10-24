@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SunValleyDetailHome: View {
     var body: some View {
-        Text("Trail Map Detail Home")
+        Text("Detail Home")
             .foregroundColor(.red)
     }
 }
