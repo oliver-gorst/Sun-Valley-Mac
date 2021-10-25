@@ -11,24 +11,24 @@ struct SunValleyList: View {
     var body: some View {
         NavigationView {
             List() {
-            NavigationLink(destination: SunValleyDetailHome()) {
-                SunValleyRowHome()
+            NavigationLink(destination: HomeDetail()) {
+                HomeRow()
             }
             .buttonStyle(PlainButtonStyle())
-            NavigationLink(destination: SunValleyDetail()) {
-                SunValleyRow()
+            NavigationLink(destination: TrailMapDetail()) {
+                TrailMapRow()
             }
             .buttonStyle(PlainButtonStyle())
-            NavigationLink(destination: SunValleyDetail2()) {
-                SunValleyRow2()
+            NavigationLink(destination: LocationDetail()) {
+                LocationRow()
             }
             .buttonStyle(PlainButtonStyle())
-            NavigationLink(destination: SunValleyDetail3()) {
-                SunValleyRow3()
+            NavigationLink(destination: SkiLiftDetail()) {
+                SkiLiftRow()
             }
             .buttonStyle(PlainButtonStyle())
-            NavigationLink(destination: SunValleyDetail4()) {
-                SunValleyRow4()
+            NavigationLink(destination: ExtraMenuDetail()) {
+                ExtraMenuRow()
             }
             .buttonStyle(PlainButtonStyle())
             }

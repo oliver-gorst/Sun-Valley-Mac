@@ -7,20 +7,20 @@
 
 import SwiftUI
 
-struct SunValleyRow2: View {
+struct TrailMapRow: View {
     var body: some View {
         HStack {
-            Image("Location")
+            Image("TrailMap")
                 .resizable()
                 .frame(width: 40, height: 40)
-            Text("Location")
+            Text("Trail Map")
                 .foregroundColor(Color("text_color"))
         }
     }
 }
 
-struct SunValleyRow2_Previews: PreviewProvider {
+struct TrailMapRow_Previews: PreviewProvider {
     static var previews: some View {
-        SunValleyRow()
+        TrailMapRow()
     }
 }

@@ -7,15 +7,19 @@
 
 import SwiftUI
 
-struct SunValleyDetailHome: View {
+struct SkiLiftDetail: View {
     var body: some View {
-        Text("Detail Home")
+        ZStack {
+        Image("Gondola")
+        Text("Ski Lift Details")
             .foregroundColor(.red)
+    }
     }
 }
 
-struct SunValleyDetailHome_Previews: PreviewProvider {
+struct SkiLiftDetail_Previews: PreviewProvider {
     static var previews: some View {
-        SunValleyDetailHome()
+        SkiLiftDetail()
     }
 }
+

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SunValleyRowHome: View {
+struct HomeRow: View {
     var body: some View {
         HStack {
             Image("SunIcon")
@@ -19,8 +19,8 @@ struct SunValleyRowHome: View {
     }
 }
 
-struct SunValleyRowHome_Previews: PreviewProvider {
+struct HomeRow_Previews: PreviewProvider {
     static var previews: some View {
-        SunValleyRowHome()
+        HomeRow()
     }
 }

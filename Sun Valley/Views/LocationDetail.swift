@@ -7,15 +7,15 @@
 
 import SwiftUI
 
-struct SunValleyDetail2: View {
+struct LocationDetail: View {
     var body: some View {
         MapView()
     }
 }
 
-struct SunValleyDetail2_Previews: PreviewProvider {
+struct LocationDetail_Previews: PreviewProvider {
     static var previews: some View {
-        SunValleyDetail2()
+        LocationDetail()
     }
 }
 

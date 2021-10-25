@@ -7,35 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		490E382C271154BD00BB6C03 /* SunValleyRow4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490E382B271154BD00BB6C03 /* SunValleyRow4.swift */; };
+		490E382C271154BD00BB6C03 /* ExtraMenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490E382B271154BD00BB6C03 /* ExtraMenuRow.swift */; };
 		4928283B270E624B00EC7CA3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4928283A270E624B00EC7CA3 /* MapView.swift */; };
-		495A41A62718F9EC00CE1220 /* SunValleyDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495A41A52718F9EC00CE1220 /* SunValleyDetail.swift */; };
-		495A41A82718FA0900CE1220 /* SunValleyDetail4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495A41A72718FA0900CE1220 /* SunValleyDetail4.swift */; };
-		49786AC72700225200B6C9EF /* SunValleyRow2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49786AC62700225200B6C9EF /* SunValleyRow2.swift */; };
-		49786ACA2700227300B6C9EF /* SunValleyRow3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49786AC92700227300B6C9EF /* SunValleyRow3.swift */; };
-		49786ACC270022A600B6C9EF /* SunValleyDetail2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49786ACB270022A600B6C9EF /* SunValleyDetail2.swift */; };
-		49786ACE270022B500B6C9EF /* SunValleyDetail3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49786ACD270022B500B6C9EF /* SunValleyDetail3.swift */; };
+		495A41A62718F9EC00CE1220 /* TrailMapDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495A41A52718F9EC00CE1220 /* TrailMapDetail.swift */; };
+		495A41A82718FA0900CE1220 /* ExtraMenuDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495A41A72718FA0900CE1220 /* ExtraMenuDetail.swift */; };
+		49786AC72700225200B6C9EF /* LocationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49786AC62700225200B6C9EF /* LocationRow.swift */; };
+		49786ACA2700227300B6C9EF /* SkiLiftRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49786AC92700227300B6C9EF /* SkiLiftRow.swift */; };
+		49786ACC270022A600B6C9EF /* LocationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49786ACB270022A600B6C9EF /* LocationDetail.swift */; };
+		49786ACE270022B500B6C9EF /* SkiLiftDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49786ACD270022B500B6C9EF /* SkiLiftDetail.swift */; };
 		4997027E26EEF0D100E93933 /* TestBox2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4997027D26EEF0D100E93933 /* TestBox2.swift */; };
 		49BAB58026C6F3E000FB732D /* Sun_ValleyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BAB57F26C6F3E000FB732D /* Sun_ValleyApp.swift */; };
 		49BAB58226C6F3E000FB732D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BAB58126C6F3E000FB732D /* ContentView.swift */; };
 		49BAB58426C6F3E100FB732D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49BAB58326C6F3E100FB732D /* Assets.xcassets */; };
 		49BAB58726C6F3E100FB732D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49BAB58626C6F3E100FB732D /* Preview Assets.xcassets */; };
-		49C029F926FEB90800422E65 /* SunValleyRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C029F826FEB90800422E65 /* SunValleyRow.swift */; };
+		49C029F926FEB90800422E65 /* TrailMapRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C029F826FEB90800422E65 /* TrailMapRow.swift */; };
 		49C029FD26FEC07300422E65 /* SunValleyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C029FC26FEC07300422E65 /* SunValleyList.swift */; };
-		49D256BF27114D22002A413A /* SunValleyRowHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D256BE27114D22002A413A /* SunValleyRowHome.swift */; };
-		49D256C127114D3D002A413A /* SunValleyDetailHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D256C027114D3D002A413A /* SunValleyDetailHome.swift */; };
+		49D256BF27114D22002A413A /* HomeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D256BE27114D22002A413A /* HomeRow.swift */; };
+		49D256C127114D3D002A413A /* HomeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D256C027114D3D002A413A /* HomeDetail.swift */; };
 		49E4495026E70AE3009EEF64 /* TestBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E4494F26E70AE3009EEF64 /* TestBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		490E382B271154BD00BB6C03 /* SunValleyRow4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunValleyRow4.swift; sourceTree = "<group>"; };
+		490E382B271154BD00BB6C03 /* ExtraMenuRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraMenuRow.swift; sourceTree = "<group>"; };
 		4928283A270E624B00EC7CA3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		495A41A52718F9EC00CE1220 /* SunValleyDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunValleyDetail.swift; sourceTree = "<group>"; };
-		495A41A72718FA0900CE1220 /* SunValleyDetail4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunValleyDetail4.swift; sourceTree = "<group>"; };
-		49786AC62700225200B6C9EF /* SunValleyRow2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunValleyRow2.swift; sourceTree = "<group>"; };
-		49786AC92700227300B6C9EF /* SunValleyRow3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunValleyRow3.swift; sourceTree = "<group>"; };
-		49786ACB270022A600B6C9EF /* SunValleyDetail2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunValleyDetail2.swift; sourceTree = "<group>"; };
-		49786ACD270022B500B6C9EF /* SunValleyDetail3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunValleyDetail3.swift; sourceTree = "<group>"; };
+		495A41A52718F9EC00CE1220 /* TrailMapDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailMapDetail.swift; sourceTree = "<group>"; };
+		495A41A72718FA0900CE1220 /* ExtraMenuDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraMenuDetail.swift; sourceTree = "<group>"; };
+		49786AC62700225200B6C9EF /* LocationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRow.swift; sourceTree = "<group>"; };
+		49786AC92700227300B6C9EF /* SkiLiftRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkiLiftRow.swift; sourceTree = "<group>"; };
+		49786ACB270022A600B6C9EF /* LocationDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetail.swift; sourceTree = "<group>"; };
+		49786ACD270022B500B6C9EF /* SkiLiftDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkiLiftDetail.swift; sourceTree = "<group>"; };
 		4997027D26EEF0D100E93933 /* TestBox2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBox2.swift; sourceTree = "<group>"; };
 		49BAB57C26C6F3E000FB732D /* Sun Valley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sun Valley.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49BAB57F26C6F3E000FB732D /* Sun_ValleyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sun_ValleyApp.swift; sourceTree = "<group>"; };
@@ -43,10 +43,10 @@
 		49BAB58326C6F3E100FB732D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49BAB58626C6F3E100FB732D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		49BAB58826C6F3E100FB732D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		49C029F826FEB90800422E65 /* SunValleyRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunValleyRow.swift; sourceTree = "<group>"; };
+		49C029F826FEB90800422E65 /* TrailMapRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailMapRow.swift; sourceTree = "<group>"; };
 		49C029FC26FEC07300422E65 /* SunValleyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunValleyList.swift; sourceTree = "<group>"; };
-		49D256BE27114D22002A413A /* SunValleyRowHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunValleyRowHome.swift; sourceTree = "<group>"; };
-		49D256C027114D3D002A413A /* SunValleyDetailHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunValleyDetailHome.swift; sourceTree = "<group>"; };
+		49D256BE27114D22002A413A /* HomeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRow.swift; sourceTree = "<group>"; };
+		49D256C027114D3D002A413A /* HomeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetail.swift; sourceTree = "<group>"; };
 		49E4494F26E70AE3009EEF64 /* TestBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,17 +68,17 @@
 				49E4494F26E70AE3009EEF64 /* TestBox.swift */,
 				4997027D26EEF0D100E93933 /* TestBox2.swift */,
 				49C029FC26FEC07300422E65 /* SunValleyList.swift */,
-				49D256BE27114D22002A413A /* SunValleyRowHome.swift */,
-				49C029F826FEB90800422E65 /* SunValleyRow.swift */,
-				49786AC62700225200B6C9EF /* SunValleyRow2.swift */,
-				49786AC92700227300B6C9EF /* SunValleyRow3.swift */,
-				490E382B271154BD00BB6C03 /* SunValleyRow4.swift */,
-				49D256C027114D3D002A413A /* SunValleyDetailHome.swift */,
-				495A41A52718F9EC00CE1220 /* SunValleyDetail.swift */,
-				49786ACB270022A600B6C9EF /* SunValleyDetail2.swift */,
-				49786ACD270022B500B6C9EF /* SunValleyDetail3.swift */,
+				49D256BE27114D22002A413A /* HomeRow.swift */,
+				49C029F826FEB90800422E65 /* TrailMapRow.swift */,
+				49786AC62700225200B6C9EF /* LocationRow.swift */,
+				49786AC92700227300B6C9EF /* SkiLiftRow.swift */,
+				490E382B271154BD00BB6C03 /* ExtraMenuRow.swift */,
+				49D256C027114D3D002A413A /* HomeDetail.swift */,
+				495A41A52718F9EC00CE1220 /* TrailMapDetail.swift */,
+				49786ACB270022A600B6C9EF /* LocationDetail.swift */,
+				49786ACD270022B500B6C9EF /* SkiLiftDetail.swift */,
 				4928283A270E624B00EC7CA3 /* MapView.swift */,
-				495A41A72718FA0900CE1220 /* SunValleyDetail4.swift */,
+				495A41A72718FA0900CE1220 /* ExtraMenuDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -190,20 +190,20 @@
 			files = (
 				4997027E26EEF0D100E93933 /* TestBox2.swift in Sources */,
 				4928283B270E624B00EC7CA3 /* MapView.swift in Sources */,
-				490E382C271154BD00BB6C03 /* SunValleyRow4.swift in Sources */,
+				490E382C271154BD00BB6C03 /* ExtraMenuRow.swift in Sources */,
 				49C029FD26FEC07300422E65 /* SunValleyList.swift in Sources */,
-				49C029F926FEB90800422E65 /* SunValleyRow.swift in Sources */,
-				49D256BF27114D22002A413A /* SunValleyRowHome.swift in Sources */,
-				495A41A62718F9EC00CE1220 /* SunValleyDetail.swift in Sources */,
-				49D256C127114D3D002A413A /* SunValleyDetailHome.swift in Sources */,
-				49786AC72700225200B6C9EF /* SunValleyRow2.swift in Sources */,
-				49786ACA2700227300B6C9EF /* SunValleyRow3.swift in Sources */,
+				49C029F926FEB90800422E65 /* TrailMapRow.swift in Sources */,
+				49D256BF27114D22002A413A /* HomeRow.swift in Sources */,
+				495A41A62718F9EC00CE1220 /* TrailMapDetail.swift in Sources */,
+				49D256C127114D3D002A413A /* HomeDetail.swift in Sources */,
+				49786AC72700225200B6C9EF /* LocationRow.swift in Sources */,
+				49786ACA2700227300B6C9EF /* SkiLiftRow.swift in Sources */,
 				49BAB58226C6F3E000FB732D /* ContentView.swift in Sources */,
-				495A41A82718FA0900CE1220 /* SunValleyDetail4.swift in Sources */,
+				495A41A82718FA0900CE1220 /* ExtraMenuDetail.swift in Sources */,
 				49E4495026E70AE3009EEF64 /* TestBox.swift in Sources */,
 				49BAB58026C6F3E000FB732D /* Sun_ValleyApp.swift in Sources */,
-				49786ACE270022B500B6C9EF /* SunValleyDetail3.swift in Sources */,
-				49786ACC270022A600B6C9EF /* SunValleyDetail2.swift in Sources */,
+				49786ACE270022B500B6C9EF /* SkiLiftDetail.swift in Sources */,
+				49786ACC270022A600B6C9EF /* LocationDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SunValleyDetail4: View {
+struct ExtraMenuDetail: View {
     var body: some View {
         ZStack {
             VStack {
@@ -37,9 +37,9 @@ struct SunValleyDetail4: View {
     }
 }
 
-struct SunValleyDetail4_Previews: PreviewProvider {
+struct ExtraMenuDetail_Previews: PreviewProvider {
     static var previews: some View {
-        SunValleyDetail4()
+        ExtraMenuDetail()
     }
 }
 

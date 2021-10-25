@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SunValleyDetail: View {
+struct TrailMapDetail: View {
     
     @State var currentAmount: CGFloat = 0
     @State var lastAmount: CGFloat = 0
@@ -28,19 +28,21 @@ struct SunValleyDetail: View {
                         .onEnded { value in
                             lastAmount += currentAmount
                             currentAmount = 0
-                        }
+                    }
                 )
-                }
             }
+            
         Text("Trail Map Details!!!")
-            .foregroundColor(.red)
+                .foregroundColor(.red)
+            }
+
         }
     }
 
 
-struct SunValleyDetail_Previews: PreviewProvider {
+struct TrailMapDetail_Previews: PreviewProvider {
     static var previews: some View {
-        SunValleyDetail()
+        TrailMapDetail()
     }
 }
 
