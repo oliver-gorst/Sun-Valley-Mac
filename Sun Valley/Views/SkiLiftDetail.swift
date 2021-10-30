@@ -11,6 +11,8 @@ struct SkiLiftDetail: View {
     var body: some View {
         ZStack {
         Image("Gondola")
+            .resizable()
+            .aspectRatio(contentMode:.fit)
         Text("Ski Lift Details")
             .foregroundColor(.red)
     }
