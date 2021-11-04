@@ -9,12 +9,16 @@ import SwiftUI
 
 struct SkiLiftDetail: View {
     var body: some View {
-        ZStack {
+        VStack {
+            ScrollView(.horizontal, showsIndicators: false) {
         Image("Gondola")
             .resizable()
             .aspectRatio(contentMode:.fit)
-        Text("Ski Lift Details")
-            .foregroundColor(.red)
+            }
+            Spacer()
+                .frame(height:20)
+            Text("Ski Lift Details")
+            .foregroundColor(.blue)
     }
     }
 }
