@@ -9,8 +9,8 @@ import SwiftUI
 
 struct TestBox2: View {
     var body: some View {
-        Text("This is Test Box 2, this is going to be Trail Map section")
-            .foregroundColor(.green)
+        Text("This is Test Box 2")
+            .foregroundColor(.blue)
             .font(.system(size:20, weight:.heavy))
     }
 }
