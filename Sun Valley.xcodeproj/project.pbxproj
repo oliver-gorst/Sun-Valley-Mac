@@ -21,6 +21,8 @@
 		499EEDA7273B743D0061BB1A /* VerticalBarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499EEDA6273B743D0061BB1A /* VerticalBarsView.swift */; };
 		499EEDA9273B747C0061BB1A /* ScalingCirclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499EEDA8273B747C0061BB1A /* ScalingCirclesView.swift */; };
 		499EEDAD273B786A0061BB1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499EEDAC273B786A0061BB1A /* LaunchScreen.storyboard */; };
+		499EEDAF273B84A50061BB1A /* AvalancheDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499EEDAE273B84A50061BB1A /* AvalancheDetail.swift */; };
+		499EEDB1273B84B90061BB1A /* AvalancheRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499EEDB0273B84B90061BB1A /* AvalancheRow.swift */; };
 		49BAB58026C6F3E000FB732D /* Sun_ValleyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BAB57F26C6F3E000FB732D /* Sun_ValleyApp.swift */; };
 		49BAB58226C6F3E000FB732D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BAB58126C6F3E000FB732D /* ContentView.swift */; };
 		49BAB58426C6F3E100FB732D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49BAB58326C6F3E100FB732D /* Assets.xcassets */; };
@@ -47,6 +49,8 @@
 		499EEDA6273B743D0061BB1A /* VerticalBarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalBarsView.swift; sourceTree = "<group>"; };
 		499EEDA8273B747C0061BB1A /* ScalingCirclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalingCirclesView.swift; sourceTree = "<group>"; };
 		499EEDAC273B786A0061BB1A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		499EEDAE273B84A50061BB1A /* AvalancheDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvalancheDetail.swift; sourceTree = "<group>"; };
+		499EEDB0273B84B90061BB1A /* AvalancheRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvalancheRow.swift; sourceTree = "<group>"; };
 		49BAB57C26C6F3E000FB732D /* Sun Valley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sun Valley.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49BAB57F26C6F3E000FB732D /* Sun_ValleyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sun_ValleyApp.swift; sourceTree = "<group>"; };
 		49BAB58126C6F3E000FB732D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,6 +107,7 @@
 				49C029F826FEB90800422E65 /* TrailMapRow.swift */,
 				49786AC62700225200B6C9EF /* LocationRow.swift */,
 				49786AC92700227300B6C9EF /* SkiLiftRow.swift */,
+				499EEDB0273B84B90061BB1A /* AvalancheRow.swift */,
 				490E382B271154BD00BB6C03 /* ExtraMenuRow.swift */,
 			);
 			path = Rows;
@@ -116,6 +121,7 @@
 				4928283A270E624B00EC7CA3 /* MapView.swift */,
 				495A41A52718F9EC00CE1220 /* TrailMapDetail.swift */,
 				49786ACD270022B500B6C9EF /* SkiLiftDetail.swift */,
+				499EEDAE273B84A50061BB1A /* AvalancheDetail.swift */,
 				495A41A72718FA0900CE1220 /* ExtraMenuDetail.swift */,
 			);
 			path = Details;
@@ -240,6 +246,7 @@
 				49D256C127114D3D002A413A /* HomeDetail.swift in Sources */,
 				49786AC72700225200B6C9EF /* LocationRow.swift in Sources */,
 				499EEDA7273B743D0061BB1A /* VerticalBarsView.swift in Sources */,
+				499EEDAF273B84A50061BB1A /* AvalancheDetail.swift in Sources */,
 				499EEDA5273B73F60061BB1A /* HorizontalBarView.swift in Sources */,
 				49786ACA2700227300B6C9EF /* SkiLiftRow.swift in Sources */,
 				49BAB58226C6F3E000FB732D /* ContentView.swift in Sources */,
@@ -247,6 +254,7 @@
 				49E4495026E70AE3009EEF64 /* TestBox.swift in Sources */,
 				49BAB58026C6F3E000FB732D /* Sun_ValleyApp.swift in Sources */,
 				49786ACE270022B500B6C9EF /* SkiLiftDetail.swift in Sources */,
+				499EEDB1273B84B90061BB1A /* AvalancheRow.swift in Sources */,
 				49786ACC270022A600B6C9EF /* LocationDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

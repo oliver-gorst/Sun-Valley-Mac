@@ -27,6 +27,10 @@ struct SunValleyList: View {
                 SkiLiftRow()
             }
             .buttonStyle(PlainButtonStyle())
+            NavigationLink(destination: AvalancheDetail()) {
+                AvalancheRow()
+                }
+            .buttonStyle(PlainButtonStyle())
             NavigationLink(destination: ExtraMenuDetail()) {
                 ExtraMenuRow()
             }
