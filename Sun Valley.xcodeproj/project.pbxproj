@@ -20,6 +20,7 @@
 		499EEDA5273B73F60061BB1A /* HorizontalBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499EEDA4273B73F60061BB1A /* HorizontalBarView.swift */; };
 		499EEDA7273B743D0061BB1A /* VerticalBarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499EEDA6273B743D0061BB1A /* VerticalBarsView.swift */; };
 		499EEDA9273B747C0061BB1A /* ScalingCirclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499EEDA8273B747C0061BB1A /* ScalingCirclesView.swift */; };
+		499EEDAD273B786A0061BB1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499EEDAC273B786A0061BB1A /* LaunchScreen.storyboard */; };
 		49BAB58026C6F3E000FB732D /* Sun_ValleyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BAB57F26C6F3E000FB732D /* Sun_ValleyApp.swift */; };
 		49BAB58226C6F3E000FB732D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BAB58126C6F3E000FB732D /* ContentView.swift */; };
 		49BAB58426C6F3E100FB732D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49BAB58326C6F3E100FB732D /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 		499EEDA4273B73F60061BB1A /* HorizontalBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalBarView.swift; sourceTree = "<group>"; };
 		499EEDA6273B743D0061BB1A /* VerticalBarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalBarsView.swift; sourceTree = "<group>"; };
 		499EEDA8273B747C0061BB1A /* ScalingCirclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalingCirclesView.swift; sourceTree = "<group>"; };
+		499EEDAC273B786A0061BB1A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49BAB57C26C6F3E000FB732D /* Sun Valley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sun Valley.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49BAB57F26C6F3E000FB732D /* Sun_ValleyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sun_ValleyApp.swift; sourceTree = "<group>"; };
 		49BAB58126C6F3E000FB732D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				49BAB58326C6F3E100FB732D /* Assets.xcassets */,
 				49BAB58826C6F3E100FB732D /* Info.plist */,
 				49BAB58526C6F3E100FB732D /* Preview Content */,
+				499EEDAC273B786A0061BB1A /* LaunchScreen.storyboard */,
 			);
 			path = "Sun Valley";
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				499EEDAD273B786A0061BB1A /* LaunchScreen.storyboard in Resources */,
 				49BAB58726C6F3E100FB732D /* Preview Assets.xcassets in Resources */,
 				49BAB58426C6F3E100FB732D /* Assets.xcassets in Resources */,
 			);

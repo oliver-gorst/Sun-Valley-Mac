@@ -32,7 +32,7 @@ struct TrailMapDetail: View {
                 )
             }
             
-        Text("Trail Map Details!!!")
+        Text("Trail Map Details!")
                 .foregroundColor(.red)
             }
 
