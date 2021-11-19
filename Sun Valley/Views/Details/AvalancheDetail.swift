@@ -8,7 +8,6 @@
 import SwiftUI
 
 
-
 struct AvalancheDetail: View {
     @State var warningImage = ""
     func avalancheRandom() -> String {
@@ -16,16 +15,16 @@ struct AvalancheDetail: View {
         switch avalancheNumber{
         case 1:
             warningImage = "\"Low\""
-            return("The avalanche rating is 1")
+            return("Low")
         case 2:
             warningImage = "\"Moderate\""
-            return("The avalanche rating is 2")
+            return("Moderate")
         case 3:
             warningImage = "\"Considerable\""
-            return("The avalanche rating is 3")
+            return("Considerable")
         case 4:
             warningImage = "\"High\""
-            return("The avalanche rating is 4")
+            return("High")
         default:
             return("meow")
         }
@@ -33,11 +32,12 @@ struct AvalancheDetail: View {
     
     var body: some View {
         VStack{
+        VerticalBarsView()
         Text(avalancheRandom())
-            Image(warningImage)
-                .resizable()
-                .aspectRatio(contentMode:.fit)
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image(avalancheRandom())
+            .resizable()
+            .aspectRatio(contentMode:.fit)
+        Text("Sun Valley Avalanche Rating")
         }
     }
 }
