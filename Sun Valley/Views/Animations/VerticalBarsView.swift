@@ -13,7 +13,6 @@ struct VerticalBarsView: View {
     @State private var shouldAnimate = false
     
     var body: some View {
-        
         HStack(alignment: .center, spacing: shouldAnimate ? 15 : 5) {
             Capsule(style: .continuous)
                 .fill(Color.black)
