@@ -42,6 +42,21 @@ struct AvalancheDetail: View {
         }
     }
     
+    private func avalancheDescription() -> String {
+        switch avalancheNumber{
+        case 1:
+            return("Description for Low.")
+        case 2:
+            return("Description for Moderate")
+        case 3:
+            return("Description for Considerable.")
+        case 4:
+            return("Description for High.")
+        default:
+            return("Meow")
+        }
+    }
+    
     var body: some View {
         VStack{
         VerticalBarsView()
@@ -53,7 +68,7 @@ struct AvalancheDetail: View {
             .resizable()
             .aspectRatio(contentMode:.fit)
             .padding(30)
-        Text("Sun Valley Avalanche Rating")
+        Text(avalancheDescription())
                 .padding(30)
         }
         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
