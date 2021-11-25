@@ -45,13 +45,13 @@ struct AvalancheDetail: View {
     private func avalancheDescription() -> String {
         switch avalancheNumber{
         case 1:
-            return("Description for Low.")
+            return("Generally safe avalanche conditions. Watch for unstable snow on isolated terrain features.")
         case 2:
-            return("Description for Moderate")
+            return("Heightened avalanche conditions on specific terrain features. Evaluate snow and terrain carefully; identify features of concern.")
         case 3:
-            return("Description for Considerable.")
+            return("Dangerous avalanche conditions. Careful snowpack evaluation, cautious route-finding and conservative decision making essential.")
         case 4:
-            return("Description for High.")
+            return("Very dangerous avalanche conditions. Travel in avalanche terrain not reccomended.")
         default:
             return("Meow")
         }
