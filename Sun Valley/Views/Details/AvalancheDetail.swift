@@ -69,7 +69,8 @@ struct AvalancheDetail: View {
             .aspectRatio(contentMode:.fit)
             .padding(30)
         Text(avalancheDescription())
-                .padding(30)
+            .multilineTextAlignment(.center)
+            .padding(30)
         }
         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
         .background(backgroundColor())
