@@ -1,10 +1,3 @@
-//
-//  TestBox2.swift
-//  Sun Valley
-//
-//  Created by Oliver Gorst on 9/12/21.
-//
-
 import SwiftUI
 
 struct TestBox2: View {

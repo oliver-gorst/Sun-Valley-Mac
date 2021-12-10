@@ -1,10 +1,3 @@
-//
-//  MapView.swift
-//  Sun Valley
-//
-//  Created by Oliver Gorst on 10/6/21.
-//
-
 import SwiftUI
 import MapKit
 

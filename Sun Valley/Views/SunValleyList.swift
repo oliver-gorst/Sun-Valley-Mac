@@ -1,10 +1,3 @@
-//
-//  SunValleyList.swift
-//  Sun Valley
-//
-//  Created by Oliver Gorst on 9/24/21.
-//
-
 import SwiftUI
 
 struct SunValleyList: View {

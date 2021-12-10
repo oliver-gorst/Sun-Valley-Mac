@@ -1,10 +1,3 @@
-//
-//  VerticalBarsView.swift
-//  Sun Valley
-//
-//  Created by Oliver Gorst on 11/9/21.
-//
-
 import SwiftUI
 
 
