@@ -3,7 +3,7 @@ import SwiftUI
 
 struct AvalancheDetail: View {
     
-    @State private var avalancheNumber = Int.random(in: 1...4)
+    @State var avalancheNumber = Int.random(in: 1...4)
     
     private func avalancheRandom() -> String {
         switch avalancheNumber{

@@ -17,7 +17,7 @@ struct HomeDetail: View {
             Image(mapYear)
                 .resizable()
                 .aspectRatio(contentMode:.fit)
-            Spacer()
+            //Spacer()
         }
     }
 }
