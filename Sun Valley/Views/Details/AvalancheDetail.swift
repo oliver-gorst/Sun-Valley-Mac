@@ -1,9 +1,15 @@
 import SwiftUI
 
+class AviData: ObservableObject {
+    @Published var avalancheLevel: Int = 2
+}
+
 
 struct AvalancheDetail: View {
+    @ObservedObject var avidata = AviData()
     
     @State var avalancheNumber = Int.random(in: 1...4)
+    
     
     private func avalancheRandom() -> String {
         switch avalancheNumber{
@@ -54,6 +60,7 @@ struct AvalancheDetail: View {
         VStack{
         VerticalBarsView()
                 .padding(50)
+        Text("The avalanche level is \(avidata.avalancheLevel)")
         Text(avalancheRandom())
                 .font(.system(size:30, weight:.heavy))
                 .padding(30)

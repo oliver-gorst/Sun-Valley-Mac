@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct HomeDetail: View {
+    @ObservedObject var avidata = AviData()
     @State private var mapYear = "1945"
     var years = ["1945", "1959", "1985", "1995", "2021"]
 
@@ -17,7 +18,8 @@ struct HomeDetail: View {
             Image(mapYear)
                 .resizable()
                 .aspectRatio(contentMode:.fit)
-            //Spacer()
+            Spacer()
+            Text("The current avalanche level is \(avidata.avalancheLevel).")
         }
     }
 }

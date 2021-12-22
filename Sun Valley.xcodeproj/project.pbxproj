@@ -33,6 +33,8 @@
 		49D256BF27114D22002A413A /* HomeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D256BE27114D22002A413A /* HomeRow.swift */; };
 		49D256C127114D3D002A413A /* HomeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D256C027114D3D002A413A /* HomeDetail.swift */; };
 		49E4495026E70AE3009EEF64 /* TestBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E4494F26E70AE3009EEF64 /* TestBox.swift */; };
+		49FDD20F276E91E30089988B /* ShareVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FDD20E276E91E30089988B /* ShareVariable.swift */; };
+		49FDD211276E952E0089988B /* RecieveVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FDD210276E952E0089988B /* RecieveVariable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +66,8 @@
 		49D256BE27114D22002A413A /* HomeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRow.swift; sourceTree = "<group>"; };
 		49D256C027114D3D002A413A /* HomeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetail.swift; sourceTree = "<group>"; };
 		49E4494F26E70AE3009EEF64 /* TestBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBox.swift; sourceTree = "<group>"; };
+		49FDD20E276E91E30089988B /* ShareVariable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareVariable.swift; sourceTree = "<group>"; };
+		49FDD210276E952E0089988B /* RecieveVariable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecieveVariable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,8 @@
 				499EEDAB273B75BD0061BB1A /* Details */,
 				499EEDA0273B72C60061BB1A /* Animations */,
 				49CCFBD9276E4B5800CB9328 /* BindingTest.swift */,
+				49FDD20E276E91E30089988B /* ShareVariable.swift */,
+				49FDD210276E952E0089988B /* RecieveVariable.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -237,6 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49FDD211276E952E0089988B /* RecieveVariable.swift in Sources */,
 				4997027E26EEF0D100E93933 /* TestBox2.swift in Sources */,
 				4928283B270E624B00EC7CA3 /* MapView.swift in Sources */,
 				490E382C271154BD00BB6C03 /* ExtraMenuRow.swift in Sources */,
@@ -260,6 +267,7 @@
 				49786ACE270022B500B6C9EF /* SkiLiftDetail.swift in Sources */,
 				499EEDB1273B84B90061BB1A /* AvalancheRow.swift in Sources */,
 				49786ACC270022A600B6C9EF /* LocationDetail.swift in Sources */,
+				49FDD20F276E91E30089988B /* ShareVariable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
