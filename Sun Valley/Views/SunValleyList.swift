@@ -2,6 +2,7 @@ import SwiftUI
 
 struct SunValleyList: View {
     var body: some View {
+        VStack {
         NavigationView {
             List() {
             NavigationLink(destination: HomeDetail()) {
@@ -31,7 +32,17 @@ struct SunValleyList: View {
             }
             .navigationTitle("Sun Valley App")
             }
+        Text("Settings Box Goes Here")
+        Text("Putting this in for more space")
+        NavigationView {
+            List() {
+                NavigationLink(destination: SettingsDetail()) {
+                    SettingsRow()
+                }
+            }
+            }
         }
+    }
     }
 
 

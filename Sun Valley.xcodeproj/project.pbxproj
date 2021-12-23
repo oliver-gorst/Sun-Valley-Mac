@@ -16,6 +16,8 @@
 		49786ACA2700227300B6C9EF /* SkiLiftRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49786AC92700227300B6C9EF /* SkiLiftRow.swift */; };
 		49786ACC270022A600B6C9EF /* LocationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49786ACB270022A600B6C9EF /* LocationDetail.swift */; };
 		49786ACE270022B500B6C9EF /* SkiLiftDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49786ACD270022B500B6C9EF /* SkiLiftDetail.swift */; };
+		499172C827743B5F00640123 /* SettingsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499172C727743B5F00640123 /* SettingsDetail.swift */; };
+		499172CA27743B7000640123 /* SettingsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499172C927743B7000640123 /* SettingsRow.swift */; };
 		4997027E26EEF0D100E93933 /* TestBox2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4997027D26EEF0D100E93933 /* TestBox2.swift */; };
 		499EED9F273B71300061BB1A /* CircleWavesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499EED9E273B71300061BB1A /* CircleWavesView.swift */; };
 		499EEDA5273B73F60061BB1A /* HorizontalBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499EEDA4273B73F60061BB1A /* HorizontalBarView.swift */; };
@@ -48,6 +50,8 @@
 		49786AC92700227300B6C9EF /* SkiLiftRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkiLiftRow.swift; sourceTree = "<group>"; };
 		49786ACB270022A600B6C9EF /* LocationDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetail.swift; sourceTree = "<group>"; };
 		49786ACD270022B500B6C9EF /* SkiLiftDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkiLiftDetail.swift; sourceTree = "<group>"; };
+		499172C727743B5F00640123 /* SettingsDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsDetail.swift; sourceTree = "<group>"; };
+		499172C927743B7000640123 /* SettingsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRow.swift; sourceTree = "<group>"; };
 		4997027D26EEF0D100E93933 /* TestBox2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBox2.swift; sourceTree = "<group>"; };
 		499EED9E273B71300061BB1A /* CircleWavesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleWavesView.swift; sourceTree = "<group>"; };
 		499EEDA4273B73F60061BB1A /* HorizontalBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalBarView.swift; sourceTree = "<group>"; };
@@ -129,6 +133,7 @@
 				49786AC92700227300B6C9EF /* SkiLiftRow.swift */,
 				499EEDB0273B84B90061BB1A /* AvalancheRow.swift */,
 				490E382B271154BD00BB6C03 /* ExtraMenuRow.swift */,
+				499172C927743B7000640123 /* SettingsRow.swift */,
 			);
 			path = Rows;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 				49786ACD270022B500B6C9EF /* SkiLiftDetail.swift */,
 				499EEDAE273B84A50061BB1A /* AvalancheDetail.swift */,
 				495A41A72718FA0900CE1220 /* ExtraMenuDetail.swift */,
+				499172C727743B5F00640123 /* SettingsDetail.swift */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -270,6 +276,8 @@
 				499EEDAF273B84A50061BB1A /* AvalancheDetail.swift in Sources */,
 				499EEDA5273B73F60061BB1A /* HorizontalBarView.swift in Sources */,
 				49786ACA2700227300B6C9EF /* SkiLiftRow.swift in Sources */,
+				499172C827743B5F00640123 /* SettingsDetail.swift in Sources */,
+				499172CA27743B7000640123 /* SettingsRow.swift in Sources */,
 				49CCFBDA276E4B5800CB9328 /* BindingTest.swift in Sources */,
 				494EFD7827741794003BC185 /* Avalanche Slider.swift in Sources */,
 				49BAB58226C6F3E000FB732D /* ContentView.swift in Sources */,
