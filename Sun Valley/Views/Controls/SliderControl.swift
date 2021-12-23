@@ -8,7 +8,7 @@
 import SwiftUI
 
 
-struct Avalanche_Slider: View {
+struct SliderControl: View {
     
     @State private var speed = 3.0
 @State private var isEditing = false
@@ -34,8 +34,8 @@ var body: some View {
 
 
 
-struct Avalanche_Slider_Previews: PreviewProvider {
+struct SliderControl_Previews: PreviewProvider {
     static var previews: some View {
-        Avalanche_Slider()
+        SliderControl()
     }
 }

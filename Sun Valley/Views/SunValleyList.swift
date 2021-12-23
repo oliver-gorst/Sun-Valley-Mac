@@ -32,7 +32,6 @@ struct SunValleyList: View {
             }
             .navigationTitle("Sun Valley App")
             }
-        Text("Settings Box Goes Here")
         Text("Putting this in for more space")
         NavigationView {
             List() {

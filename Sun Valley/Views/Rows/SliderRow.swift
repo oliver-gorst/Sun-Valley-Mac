@@ -1,19 +1,19 @@
 import SwiftUI
 
-struct SettingsRow: View {
+struct SliderRow: View {
     var body: some View {
         HStack {
-            Image("Settings")
+            Image("Slider")
                 .resizable()
                 .frame(width: 40, height: 40)
-            Text("Settings")
+            Text("Set Avalanche Slider")
                 .foregroundColor(Color("text_color"))
         }
     }
 }
 
-struct SettingsRow_Previews: PreviewProvider {
+struct SliderRow_Previews: PreviewProvider {
     static var previews: some View {
-        SettingsRow()
+        SliderRow()
     }
 }

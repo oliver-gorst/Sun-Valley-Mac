@@ -9,7 +9,15 @@ import SwiftUI
 
 struct SettingsDetail: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            List() {
+                NavigationLink(destination: AvalancheSlider()) {
+                    SliderRow()
+                }
+                .buttonStyle(PlainButtonStyle())
+            }
+            .navigationTitle("Settings")
+        }
     }
 }
 
