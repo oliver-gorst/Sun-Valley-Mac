@@ -1,3 +1,5 @@
+//This entire view and TestBox and TestBox 2 should be deleted once you've used views within the same view somewhere else
+
 import SwiftUI
 
 struct ExtraMenuDetail: View {
