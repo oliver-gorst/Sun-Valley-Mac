@@ -10,7 +10,7 @@ import SwiftUI
 
 struct SliderControl: View {
     
-    @State private var speed = 3.0
+@State private var speed = 3.0
 @State private var isEditing = false
 
 var body: some View {
