@@ -10,7 +10,9 @@ import SwiftUI
 struct AvalancheSlider: View {
     var body: some View {
         VStack {
-        Text("Set the avalanche level below")
+        Image("LevelLogo")
+            .resizable()
+            .aspectRatio(contentMode:.fit)
         SliderControl()
     }
 }

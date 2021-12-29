@@ -20,7 +20,6 @@ struct HomeDetail: View {
                 .aspectRatio(contentMode:.fit)
             Spacer()
             Text("The current avalanche level is \(avidata.avalancheLevel).")
-            Text("This was entered on GitHub")
         }
     }
 }
