@@ -1,10 +1,12 @@
 import SwiftUI
 
 
-struct SliderControl: View {
 
-@State private var speed: Double = 3
-@State private var isEditing = false
+struct SliderControl: View {
+    
+    @State private var speed: Double = 3
+    @State private var isEditing = false
+    @State private var testVar: Double = 3
 
 var body: some View {
     VStack{
@@ -14,6 +16,7 @@ var body: some View {
     maximumValueLabel: {Text("5")}
     onEditingChanged: { editing in
         isEditing = editing
+        testVar = speed
     }
     .padding()
     .accentColor(Color.green)
@@ -26,12 +29,15 @@ var body: some View {
     Text("\(speed, specifier: "%.0f")")
         .foregroundColor(isEditing ? .red : .blue)
     
-
+    Text("The output variable is \(testVar, specifier: "%.0f")")
         }
 
 }
 }
     
+
+
+
 
 
 struct SliderControl_Previews: PreviewProvider {
