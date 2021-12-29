@@ -13,7 +13,7 @@ struct SkiLiftDetail: View {
                 .frame(height:20)
             Text("Ski Lift Details")
             .foregroundColor(.blue)
-    }
+        }
     }
 }
 

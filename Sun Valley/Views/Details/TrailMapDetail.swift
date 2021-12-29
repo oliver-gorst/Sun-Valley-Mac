@@ -27,10 +27,9 @@ struct TrailMapDetail: View {
             
         Text("Trail Map Details!")
                 .foregroundColor(.red)
-            }
-
         }
     }
+}
 
 
 struct TrailMapDetail_Previews: PreviewProvider {

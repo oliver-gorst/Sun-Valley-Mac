@@ -3,9 +3,9 @@ import SwiftUI
 
 struct SliderControl: View {
     
-    @State private var speed: Double = 3
+    @State private var speed: Float = 3
     @State private var isEditing = false
-    @State private var testVar: Double = 3
+    @Binding var TransferAviLevel: Float
 
 var body: some View {
     VStack{
@@ -15,7 +15,7 @@ var body: some View {
     maximumValueLabel: {Text("5")}
     onEditingChanged: { editing in
         isEditing = editing
-        testVar = speed
+        TransferAviLevel = speed
     }
     .padding()
     .accentColor(Color.green)
@@ -27,17 +27,18 @@ var body: some View {
     
     Text("\(speed, specifier: "%.0f")")
         .foregroundColor(isEditing ? .red : .blue)
-    
-    Text("The output variable is \(testVar, specifier: "%.0f")")
+        
+    Text("The TransferAviLevel variable is \(TransferAviLevel, specifier: "%.0f")")
         }
-
-}
+    }
 }
 
 
 
 struct SliderControl_Previews: PreviewProvider {
     static var previews: some View {
-        SliderControl()
+        SliderControl(TransferAviLevel: .constant(4))
     }
 }
+
+//The preview above only shows a contant 4 on this page, on the AvalancheSlider View the live update value is shown. There is a way to adapt the preview to show the live view specifically when using bindings
