@@ -1,7 +1,6 @@
 import SwiftUI
 
 
-
 struct SliderControl: View {
     
     @State private var speed: Double = 3
@@ -34,9 +33,6 @@ var body: some View {
 
 }
 }
-    
-
-
 
 
 
