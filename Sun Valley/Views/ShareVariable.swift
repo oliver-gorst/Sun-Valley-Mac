@@ -4,6 +4,8 @@ class Transfer: ObservableObject {
     @Published var TransferVariable: Int = Int.random(in: 1...4)
 }
 
+
+
 //struct ShareVariable: View {
 //    @ObservedObject var transfer = Transfer()
 //    var body: some View {

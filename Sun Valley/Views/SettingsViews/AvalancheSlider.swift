@@ -1,14 +1,7 @@
-//
-//  Avalanche Slider.swift
-//  Sun Valley
-//
-//  Created by Oliver Gorst on 12/23/21.
-//
-
 import SwiftUI
 
 struct AvalancheSlider: View {
-    @State private var TransferAviLevel: Float = 2
+    @State private var TransferAviLevel: Float = 3
     
 
     var body: some View {

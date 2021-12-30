@@ -1,10 +1,3 @@
-//
-//  BindingTest.swift
-//  Sun Valley
-//
-//  Created by Oliver Gorst on 12/18/21.
-//
-
 import SwiftUI
 
 struct BindingTest: View {
