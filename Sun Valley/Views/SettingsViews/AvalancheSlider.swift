@@ -1,8 +1,9 @@
 import SwiftUI
 
+
+
 struct AvalancheSlider: View {
     @State private var TransferAviLevel: Float = 3
-    
 
     var body: some View {
         VStack {
