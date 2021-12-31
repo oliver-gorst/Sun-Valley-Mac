@@ -5,6 +5,7 @@ struct SunValleyList: View {
         VStack {
         NavigationView {
             List() {
+                Section {
             NavigationLink(destination: HomeDetail()) {
                 HomeRow()
             }
@@ -29,16 +30,14 @@ struct SunValleyList: View {
                 ExtraMenuRow()
             }
             .buttonStyle(PlainButtonStyle())
-            }
-            .navigationTitle("Sun Valley App")
-            }
-        Text("Putting this in for more space.")
-        NavigationView {
-            List() {
-                NavigationLink(destination: SettingsDetail()) {
-                    SettingsRow()
+                }
+                Section {
+                    NavigationLink(destination: SettingsDetail()) {
+                        SettingsRow()
+                    }
                 }
             }
+            .navigationTitle("Sun Valley App")
             }
         }
     }
