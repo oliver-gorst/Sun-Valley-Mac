@@ -12,6 +12,13 @@
 		4914AE97277507E40045FF04 /* SliderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914AE96277507E40045FF04 /* SliderRow.swift */; };
 		4928283B270E624B00EC7CA3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4928283A270E624B00EC7CA3 /* MapView.swift */; };
 		494EFD7827741794003BC185 /* SliderControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494EFD7727741794003BC185 /* SliderControl.swift */; };
+		4954FBE8277EC64A007FC2A0 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4954FBE7277EC64A007FC2A0 /* WidgetKit.framework */; };
+		4954FBEA277EC64A007FC2A0 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4954FBE9277EC64A007FC2A0 /* SwiftUI.framework */; };
+		4954FBED277EC64A007FC2A0 /* SunValleyWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4954FBEC277EC64A007FC2A0 /* SunValleyWidget.swift */; };
+		4954FBF0277EC64C007FC2A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4954FBEF277EC64C007FC2A0 /* Assets.xcassets */; };
+		4954FBF2277EC64C007FC2A0 /* SunValleyWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 4954FBEE277EC64A007FC2A0 /* SunValleyWidget.intentdefinition */; };
+		4954FBF3277EC64C007FC2A0 /* SunValleyWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 4954FBEE277EC64A007FC2A0 /* SunValleyWidget.intentdefinition */; };
+		4954FBF6277EC64C007FC2A0 /* SunValleyWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4954FBE5277EC64A007FC2A0 /* SunValleyWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		495A41A62718F9EC00CE1220 /* TrailMapDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495A41A52718F9EC00CE1220 /* TrailMapDetail.swift */; };
 		495A41A82718FA0900CE1220 /* ExtraMenuDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495A41A72718FA0900CE1220 /* ExtraMenuDetail.swift */; };
 		49786AC72700225200B6C9EF /* LocationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49786AC62700225200B6C9EF /* LocationRow.swift */; };
@@ -42,12 +49,43 @@
 		49FDD211276E952E0089988B /* RecieveVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FDD210276E952E0089988B /* RecieveVariable.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4954FBF4277EC64C007FC2A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49BAB57426C6F3E000FB732D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4954FBE4277EC64A007FC2A0;
+			remoteInfo = SunValleyWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4954FBF7277EC64C007FC2A0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4954FBF6277EC64C007FC2A0 /* SunValleyWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		490E382B271154BD00BB6C03 /* ExtraMenuRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraMenuRow.swift; sourceTree = "<group>"; };
 		4914AE94277507540045FF04 /* AvalancheSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvalancheSlider.swift; sourceTree = "<group>"; };
 		4914AE96277507E40045FF04 /* SliderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderRow.swift; sourceTree = "<group>"; };
 		4928283A270E624B00EC7CA3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		494EFD7727741794003BC185 /* SliderControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderControl.swift; sourceTree = "<group>"; };
+		4954FBE5277EC64A007FC2A0 /* SunValleyWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SunValleyWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4954FBE7277EC64A007FC2A0 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		4954FBE9277EC64A007FC2A0 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		4954FBEC277EC64A007FC2A0 /* SunValleyWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunValleyWidget.swift; sourceTree = "<group>"; };
+		4954FBEE277EC64A007FC2A0 /* SunValleyWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = SunValleyWidget.intentdefinition; sourceTree = "<group>"; };
+		4954FBEF277EC64C007FC2A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4954FBF1277EC64C007FC2A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		495A41A52718F9EC00CE1220 /* TrailMapDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailMapDetail.swift; sourceTree = "<group>"; };
 		495A41A72718FA0900CE1220 /* ExtraMenuDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraMenuDetail.swift; sourceTree = "<group>"; };
 		49786AC62700225200B6C9EF /* LocationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRow.swift; sourceTree = "<group>"; };
@@ -81,6 +119,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4954FBE2277EC64A007FC2A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4954FBEA277EC64A007FC2A0 /* SwiftUI.framework in Frameworks */,
+				4954FBE8277EC64A007FC2A0 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		49BAB57926C6F3E000FB732D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,6 +171,26 @@
 				494EFD7727741794003BC185 /* SliderControl.swift */,
 			);
 			path = Controls;
+			sourceTree = "<group>";
+		};
+		4954FBE6277EC64A007FC2A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4954FBE7277EC64A007FC2A0 /* WidgetKit.framework */,
+				4954FBE9277EC64A007FC2A0 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4954FBEB277EC64A007FC2A0 /* SunValleyWidget */ = {
+			isa = PBXGroup;
+			children = (
+				4954FBEC277EC64A007FC2A0 /* SunValleyWidget.swift */,
+				4954FBEE277EC64A007FC2A0 /* SunValleyWidget.intentdefinition */,
+				4954FBEF277EC64C007FC2A0 /* Assets.xcassets */,
+				4954FBF1277EC64C007FC2A0 /* Info.plist */,
+			);
+			path = SunValleyWidget;
 			sourceTree = "<group>";
 		};
 		499EEDA0273B72C60061BB1A /* Animations */ = {
@@ -171,6 +238,8 @@
 			isa = PBXGroup;
 			children = (
 				49BAB57E26C6F3E000FB732D /* Sun Valley */,
+				4954FBEB277EC64A007FC2A0 /* SunValleyWidget */,
+				4954FBE6277EC64A007FC2A0 /* Frameworks */,
 				49BAB57D26C6F3E000FB732D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -179,6 +248,7 @@
 			isa = PBXGroup;
 			children = (
 				49BAB57C26C6F3E000FB732D /* Sun Valley.app */,
+				4954FBE5277EC64A007FC2A0 /* SunValleyWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -207,6 +277,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4954FBE4277EC64A007FC2A0 /* SunValleyWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4954FBFA277EC64C007FC2A0 /* Build configuration list for PBXNativeTarget "SunValleyWidgetExtension" */;
+			buildPhases = (
+				4954FBE1277EC64A007FC2A0 /* Sources */,
+				4954FBE2277EC64A007FC2A0 /* Frameworks */,
+				4954FBE3277EC64A007FC2A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SunValleyWidgetExtension;
+			productName = SunValleyWidgetExtension;
+			productReference = 4954FBE5277EC64A007FC2A0 /* SunValleyWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		49BAB57B26C6F3E000FB732D /* Sun Valley */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49BAB58B26C6F3E100FB732D /* Build configuration list for PBXNativeTarget "Sun Valley" */;
@@ -214,10 +301,12 @@
 				49BAB57826C6F3E000FB732D /* Sources */,
 				49BAB57926C6F3E000FB732D /* Frameworks */,
 				49BAB57A26C6F3E000FB732D /* Resources */,
+				4954FBF7277EC64C007FC2A0 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4954FBF5277EC64C007FC2A0 /* PBXTargetDependency */,
 			);
 			name = "Sun Valley";
 			productName = "Sun Valley";
@@ -230,9 +319,12 @@
 		49BAB57426C6F3E000FB732D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1250;
+				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					4954FBE4277EC64A007FC2A0 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					49BAB57B26C6F3E000FB732D = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
@@ -252,11 +344,20 @@
 			projectRoot = "";
 			targets = (
 				49BAB57B26C6F3E000FB732D /* Sun Valley */,
+				4954FBE4277EC64A007FC2A0 /* SunValleyWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4954FBE3277EC64A007FC2A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4954FBF0277EC64C007FC2A0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		49BAB57A26C6F3E000FB732D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -270,6 +371,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4954FBE1277EC64A007FC2A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4954FBF2277EC64C007FC2A0 /* SunValleyWidget.intentdefinition in Sources */,
+				4954FBED277EC64A007FC2A0 /* SunValleyWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		49BAB57826C6F3E000FB732D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -287,6 +397,7 @@
 				495A41A62718F9EC00CE1220 /* TrailMapDetail.swift in Sources */,
 				499EED9F273B71300061BB1A /* CircleWavesView.swift in Sources */,
 				49D256C127114D3D002A413A /* HomeDetail.swift in Sources */,
+				4954FBF3277EC64C007FC2A0 /* SunValleyWidget.intentdefinition in Sources */,
 				49786AC72700225200B6C9EF /* LocationRow.swift in Sources */,
 				499EEDA7273B743D0061BB1A /* VerticalBarsView.swift in Sources */,
 				499EEDAF273B84A50061BB1A /* AvalancheDetail.swift in Sources */,
@@ -309,7 +420,73 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		4954FBF5277EC64C007FC2A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4954FBE4277EC64A007FC2A0 /* SunValleyWidgetExtension */;
+			targetProxy = 4954FBF4277EC64C007FC2A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		4954FBF8277EC64C007FC2A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YUCK58LS7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SunValleyWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SunValleyWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "None.Sun-Valley.SunValleyWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4954FBF9277EC64C007FC2A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YUCK58LS7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SunValleyWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SunValleyWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "None.Sun-Valley.SunValleyWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		49BAB58926C6F3E100FB732D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -429,6 +606,7 @@
 		49BAB58C26C6F3E100FB732D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +629,7 @@
 		49BAB58D26C6F3E100FB732D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -473,6 +652,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4954FBFA277EC64C007FC2A0 /* Build configuration list for PBXNativeTarget "SunValleyWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4954FBF8277EC64C007FC2A0 /* Debug */,
+				4954FBF9277EC64C007FC2A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		49BAB57726C6F3E000FB732D /* Build configuration list for PBXProject "Sun Valley" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
