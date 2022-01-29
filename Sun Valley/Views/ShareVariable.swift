@@ -1,7 +1,7 @@
 import SwiftUI
 
 class Transfer: ObservableObject {
-    @Published var TransferVariable: Int = Int.random(in: 1...4)
+    @Published var TransferVariable: Bool = false
 }
 
 
