@@ -3,7 +3,7 @@ import SwiftUI
 struct TestBox: View {
     var body: some View {
         VStack {
-        Text("This text is been driven by the TestBox.swift file")
+        Text("This text is been driven by the TestBox.swift file.")
             .foregroundColor(.red)
             .font(.system(size:15, weight:.heavy))
         Text("We are about to make new pages.")
