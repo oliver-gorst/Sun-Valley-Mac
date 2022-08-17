@@ -28,7 +28,7 @@ struct ButtonView: View {
     
     var body: some View {
         Button(action: {
-            backgroundColor = Color.orange
+            backgroundColor = Color.red
             buttonColor = Color.pink
             titleVar = "NEW TITLE!!!!!"
         }, label: {
